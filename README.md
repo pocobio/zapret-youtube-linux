@@ -28,6 +28,7 @@ git clone https://github.com/avitoras/nfqwscfg; sudo cp nfqwscfg/files/* /etc/za
 ./zapret.sh
 ```
 #### Либо же вот так, чтобы скрипт запустился в фоновом режиме
+# (лучше так не делайте, а то sudo может поломаться чутка)
 ```sh
 nohup ./zapret.sh &
 ```
