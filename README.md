@@ -20,7 +20,7 @@ sudo pacman -S iptables
 ```
 ## Клонируем мой репозиторий и закидываем ip-листы и бинари
 ```sh
-git clone https://github.com/avitoras/nfqwscfg; sudo cp nfqwscfg/files/* /etc/zapret
+git clone https://github.com/avitoras/nfqwscfg; sudo mkdir /etc/zapret; sudo cp nfqwscfg/files/* /etc/zapret
 ```
 #### После, если все прошло успешно, можете перекинуть скрипт `zapret.sh` туда, куда вам будет удобно
 # Запуск
