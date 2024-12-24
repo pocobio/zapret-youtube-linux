@@ -37,6 +37,8 @@ sudo systemctl start nfqws
 sudo systemctl enable nfqws
 ```
 
+### Спасибо [NetuserPRO](https://github.com/NetuserPRO) за сервис для systemd!
+
 
 
 
