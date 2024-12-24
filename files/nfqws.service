@@ -1,0 +1,9 @@
+[Unit]
+Description=nfqwscfg
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/zapret.sh
+
+[Install]
+WantedBy=multi-user.target
