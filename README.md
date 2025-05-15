@@ -18,7 +18,7 @@ sudo cp binaries/my/nfqws /usr/bin/; command -v nfqws
 
 ## Клонируем мой репозиторий и закидываем txt-файлы для целей обхода (их можно редактировать).
 ```sh
-git clone https://github.com/avitoras/nfqwscfg; sudo mkdir /etc/zapret; sudo cp nfqwscfg/files/* /etc/zapret
+git clone https://github.com/pocobio/zapret-youtube-linux; sudo mkdir /etc/zapret; sudo cp zapret-youtube-linux/files/* /etc/zapret
 ```
 # Тестируем работу скрипта. 
 ```sh
