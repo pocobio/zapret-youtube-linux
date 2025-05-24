@@ -22,7 +22,7 @@ git clone https://github.com/pocobio/zapret-youtube-linux; sudo mkdir /etc/zapre
 ```
 # Тестируем работу скрипта. 
 ```sh
-cd nfqwscfg; ./zapret.sh
+cd zapret-youtube-linux; ./zapret.sh
 ```
 #### Если все работает, то убиваем nfqws и закидываем мой скрипт в `/usr/bin`, а сервис в каталог с сервисами.
 ```
